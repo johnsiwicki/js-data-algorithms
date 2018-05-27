@@ -29,3 +29,18 @@ FIFO (first in, first out)
 - dequeued - removing from queue 
 - size() - returns the size as an integer 
 
+
+## Recursion 
+A function calls itself
+
+```js
+var  myFunction = function() {
+  if() {
+  //base case 
+  } else {
+     //recursive case 
+     myFunction();
+  }
+  return;
+};
+```
