@@ -20,4 +20,6 @@ two principal operations:
 - push, which adds an element to the collection, and
 - pop, which removes the most recently added element that was not yet removed.
 
+## Queues 
 
+FIFO (first in, first out)
