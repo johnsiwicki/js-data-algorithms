@@ -17,9 +17,15 @@ Big O is the way we analyze how efficient algorithms (or code in this case) with
 ## Stacks 
 (last in, first out)
 two principal operations:
-- push, which adds an element to the collection, and
-- pop, which removes the most recently added element that was not yet removed.
+- push(value), which adds an element to the collection, and
+- pop(), which removes the most recently added element that was not yet removed.
+- size() returns the size of the stack as an integer
 
 ## Queues 
 
 FIFO (first in, first out)
+
+- enqueued - adding int othe queue
+- dequeued - removing from queue 
+- size() - returns the size as an integer 
+
