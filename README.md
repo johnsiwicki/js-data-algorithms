@@ -34,6 +34,7 @@ FIFO (first in, first out)
 A function calls itself
 
 ```js
+//function template
 var  myFunction = function() {
   if() {
   //base case 
@@ -42,5 +43,18 @@ var  myFunction = function() {
      myFunction();
   }
   return;
+};
+```
+
+```js
+//example function
+var loopNtimes = function(n) {
+   console.log("n equals" , n);
+	if (n <= 1) {
+	   console.log("done");
+	   return "complete";
+	}
+	console.log(loopNtimes(n-1));
+	return loopNtimes(n-1);
 };
 ```
