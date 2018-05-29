@@ -57,4 +57,10 @@ var loopNtimes = function(n) {
 	console.log(loopNtimes(n-1));
 	return loopNtimes(n-1);
 };
+
+
+function a(foo) {
+  if(foo >20) return foo;
+  return b(foo+2);
+}
 ```
